@@ -1,0 +1,734 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.13f1 (90b6766da538) revision 9483894'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8028 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/Unity/Lomba/My project
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+57176
+Successfully changed project path to: D:/Unity/Lomba/My project
+D:/Unity/Lomba/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 76.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.13f1 (90b6766da538)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/Lomba/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005338 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 91.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.640 seconds
+Domain Reload Profiling:
+	ReloadAssembly (640ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003063 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Lomba\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\Lomba\My project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 75.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3740 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (183.6 KB). Loaded Objects now: 4219.
+Memory consumption went from 159.6 MB to 159.4 MB.
+Total: 3.639800 ms (FindLiveObjects: 0.393900 ms CreateObjectMapping: 0.226300 ms MarkObjects: 2.902600 ms  DeleteObjects: 0.116100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 532592.374323 seconds.
+  path: Assets/BootCamp/BootCamp/Lightmap-0_comp_light.exr
+  artifactKey: Guid(33c34f84334727a45a07e72d90068c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/BootCamp/Lightmap-0_comp_light.exr using Guid(33c34f84334727a45a07e72d90068c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e44abef7a7c819b631da8d1e9ca42df') in 0.211911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/BootCamp/BootCamp/Lightmap-4_comp_dir.png
+  artifactKey: Guid(711e213f89167bd4b82ca9f0169837e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/BootCamp/Lightmap-4_comp_dir.png using Guid(711e213f89167bd4b82ca9f0169837e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef42b1984e262b912c8b7bd2b4ec6fb7') in 0.077134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.686436 seconds.
+  path: Assets/BootCamp/bridge/Small_Bridge.fbx
+  artifactKey: Guid(5eda7c5400bb7744ba7e5eb2ab803fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Small_Bridge.fbx using Guid(5eda7c5400bb7744ba7e5eb2ab803fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd310663e3ed1f9220476dbab9708e77b') in 0.132341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.853003 seconds.
+  path: Assets/BootCamp/bridge/Prefab/Small_Bridge (2).prefab
+  artifactKey: Guid(1d3ce4861f5438f4a84618d44649dc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Prefab/Small_Bridge (2).prefab using Guid(1d3ce4861f5438f4a84618d44649dc49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd2035445f074220621b8494f9705ad') in 0.071736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.123025 seconds.
+  path: Assets/BootCamp/bridge/Tex/Log_NORM.png
+  artifactKey: Guid(c9f46f00c0157dd488b19356a61e00ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Log_NORM.png using Guid(c9f46f00c0157dd488b19356a61e00ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca2886d1f2db06c1462aab6e89c653f') in 0.027666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BootCamp/bridge/Tex/Log_SPEC.png
+  artifactKey: Guid(0241531826131f744b8a33344667c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Log_SPEC.png using Guid(0241531826131f744b8a33344667c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343ac01041de3d3c3929cad14d39e60d') in 0.030472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BootCamp/bridge/Tex/planks_NORM.png
+  artifactKey: Guid(17d622ebea6dfbf4691661fad905ba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/planks_NORM.png using Guid(17d622ebea6dfbf4691661fad905ba96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d8dbee771963861179b768f68077f0') in 0.033677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/BootCamp/bridge/Tex/Stairs_DISP.png
+  artifactKey: Guid(bd88bc6f60b4b9648a479cb7c4bdccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Stairs_DISP.png using Guid(bd88bc6f60b4b9648a479cb7c4bdccf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb06fcc4af860105ba2f402c545c5f0') in 0.032297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/BootCamp/bridge/Tex/Stairs.png
+  artifactKey: Guid(4a8fe9c3d1be13c40b9f1c57525c320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Stairs.png using Guid(4a8fe9c3d1be13c40b9f1c57525c320b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b5b7746e826c7905570d0b3b6f5115') in 0.027879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BootCamp/bridge/Tex/Stairs_NORM.png
+  artifactKey: Guid(0b6d93a1a77c63149a65b9d52319467e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Stairs_NORM.png using Guid(0b6d93a1a77c63149a65b9d52319467e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67dc0175136184d5504fa7dde52cd87') in 0.031854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/BootCamp/bridge/Tex/planks_DISP.png
+  artifactKey: Guid(8f965a1a715f4de458c4bf305a611514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/planks_DISP.png using Guid(8f965a1a715f4de458c4bf305a611514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4a1bbe301fb203b1de45370328e86f') in 0.029230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.379352 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Log 2.mat
+  artifactKey: Guid(80bb9a35ba62f51409fee113ac2f99c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Log 2.mat using Guid(80bb9a35ba62f51409fee113ac2f99c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d2364540d3b77a2a332905eb9b7ee8') in 0.028470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Platform_SPEC.mat
+  artifactKey: Guid(1b550c58e8e7ff24ea9f83572e56bfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Platform_SPEC.mat using Guid(1b550c58e8e7ff24ea9f83572e56bfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c91b576df5d5bb893aad65b7973ad38') in 0.038511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/planks 1.mat
+  artifactKey: Guid(1101ea538b936a34fa7f89112ebaf497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/planks 1.mat using Guid(1101ea538b936a34fa7f89112ebaf497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa59f631763770dd038e91d185ef3c5') in 0.030274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Log.mat
+  artifactKey: Guid(3868707dfd4bc6746ace7afe94b1f3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Log.mat using Guid(3868707dfd4bc6746ace7afe94b1f3f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec4663da4f9cb16144a4b3c9a56bc6a') in 0.026020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Stairs 1.mat
+  artifactKey: Guid(26418e53e6756e040902fd58749b25c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Stairs 1.mat using Guid(26418e53e6756e040902fd58749b25c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf7aa1a5050b68248cd2e5b204f235b') in 0.032442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Pole.mat
+  artifactKey: Guid(a0f7982b38fbda1488c431c902ff6c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Pole.mat using Guid(a0f7982b38fbda1488c431c902ff6c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd071543a478aaeeee0746dde237ac00b') in 0.024693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Platform 1.mat
+  artifactKey: Guid(84d7f2b8be361f74592bef0cbd1c4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Platform 1.mat using Guid(84d7f2b8be361f74592bef0cbd1c4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a41c60dc92e69628f98f2786507ad7d') in 0.039329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/BootCamp/bridge/Tex/Materials/Stairs_MaskMap.png
+  artifactKey: Guid(189ee772c694bee4db5dbe579a019196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/bridge/Tex/Materials/Stairs_MaskMap.png using Guid(189ee772c694bee4db5dbe579a019196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bf736da59f576256ad3790e07d3c371') in 0.027670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.772923 seconds.
+  path: Assets/BootCamp/Buildings/Mod/Guard_House.fbx
+  artifactKey: Guid(1f2cb1283b8b4a1459fbec41e77ed6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Mod/Guard_House.fbx using Guid(1f2cb1283b8b4a1459fbec41e77ed6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7322ab7cfdb668751acfc25934dbc0ea') in 0.087175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/BootCamp/Buildings/Mod/RiverSide.fbx
+  artifactKey: Guid(41e39583963575f4b8715a6723a68cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Mod/RiverSide.fbx using Guid(41e39583963575f4b8715a6723a68cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff59e2fbddd91738f3093a3dc6612c57') in 0.119792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.314595 seconds.
+  path: Assets/BootCamp/Buildings/Prefab/River_Side.prefab
+  artifactKey: Guid(929d1a2e569d7004c981829b21fbf853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Prefab/River_Side.prefab using Guid(929d1a2e569d7004c981829b21fbf853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d540a7cc92c8be819431f2274712a4') in 0.068121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.055185 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Brick_dirt_SPEC.png
+  artifactKey: Guid(3e4dce95cb04ce6498ce61c5ffa011dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Brick_dirt_SPEC.png using Guid(3e4dce95cb04ce6498ce61c5ffa011dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2825bd64bacde9638d5f99705f7b9f78') in 0.025183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wood_sup_SPEC.png
+  artifactKey: Guid(0574907e3b17ed84dbf956a7e8fb5a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wood_sup_SPEC.png using Guid(0574907e3b17ed84dbf956a7e8fb5a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b2751cddf7d93462def99b94119ba0') in 0.027642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Flooring_nm.png
+  artifactKey: Guid(6abb8db3cd668124ba26a65e07ead6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Flooring_nm.png using Guid(6abb8db3cd668124ba26a65e07ead6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b497eb7a54e7c80ee68f0729c603f0') in 0.032978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Floor_tile.png
+  artifactKey: Guid(7fc35b2616e69344b897aa222fe32fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Floor_tile.png using Guid(7fc35b2616e69344b897aa222fe32fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31c3d75b406fe9c621e64b3a8eda54d') in 0.032558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wood_sup_NORM.png
+  artifactKey: Guid(5396740c2e7ae144987b6ca074f9f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wood_sup_NORM.png using Guid(5396740c2e7ae144987b6ca074f9f8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ca21acce16d0ef870fecde709122dd') in 0.028181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Flooring_cement_nm.png
+  artifactKey: Guid(4e1ef48e1a39f7f4ea520a47e227c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Flooring_cement_nm.png using Guid(4e1ef48e1a39f7f4ea520a47e227c0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8d80593bbaab554d7727fc8e7c13c8') in 0.040516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BootCamp/Buildings/Tex/wall_inner.png
+  artifactKey: Guid(019c7a6a17142cf46a66db78baf4b512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/wall_inner.png using Guid(019c7a6a17142cf46a66db78baf4b512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8374f37fb5db5dba940a1d14f85c8457') in 0.030749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Ground_tile.png
+  artifactKey: Guid(bf38081135d1f834ab173d3b40c43af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Ground_tile.png using Guid(bf38081135d1f834ab173d3b40c43af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb428b83f5931f08005d6399a2b06dd') in 0.027892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wall_green.png
+  artifactKey: Guid(bff8e4b443799dc478af5b3f91023777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wall_green.png using Guid(bff8e4b443799dc478af5b3f91023777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7247c4a07eeb42d9f0ea486a2b6a59') in 0.042515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Shack_SPEC.png
+  artifactKey: Guid(18ba2ec60d0f74e418ef193a93475181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Shack_SPEC.png using Guid(18ba2ec60d0f74e418ef193a93475181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9613fb1fa6680f27ba5a1a70102ef1be') in 0.032687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Door.png
+  artifactKey: Guid(027d4299b4f0520438c27f84c855d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Door.png using Guid(027d4299b4f0520438c27f84c855d96f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cac53f2722b66389dc13ebbd9b0c7b') in 0.032963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Hard_cement.png
+  artifactKey: Guid(2e88ea6fcc6b8b04fa83475ea6d94ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Hard_cement.png using Guid(2e88ea6fcc6b8b04fa83475ea6d94ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f313782c296ea69d9d0560fc1728d593') in 0.036933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wall_SPEC.png
+  artifactKey: Guid(0ad945c7fa0f0f74aabba0e92a49ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wall_SPEC.png using Guid(0ad945c7fa0f0f74aabba0e92a49ddf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee8d18630bf412ce9b5555d5282509d') in 0.026754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BootCamp/Buildings/Tex/lamp.png
+  artifactKey: Guid(81403e853bb00284f97e30cc4754374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/lamp.png using Guid(81403e853bb00284f97e30cc4754374e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a0c2b7a20c405925a51b43fff158df') in 0.029174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BootCamp/Buildings/Tex/wood_Floor_SPEC.png
+  artifactKey: Guid(7617e7e980776da46b262b36d08820b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/wood_Floor_SPEC.png using Guid(7617e7e980776da46b262b36d08820b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53338029a70db2589a117e5b267fac5') in 0.034140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wall_red.png
+  artifactKey: Guid(8b4dac5f557f130438eb27f9ddc0e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wall_red.png using Guid(8b4dac5f557f130438eb27f9ddc0e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7533673910459676cef0fd194e2e7e2') in 0.035189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BootCamp/Buildings/Tex/wall_inner_blue.png
+  artifactKey: Guid(280e4db390dcd5a4ab19481d0782cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/wall_inner_blue.png using Guid(280e4db390dcd5a4ab19481d0782cf69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aad29d8dc90e1ef6b0c466e3696b201') in 0.034821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wall.png
+  artifactKey: Guid(b0d01698ba8ae9c43bf2e3089d7f741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wall.png using Guid(b0d01698ba8ae9c43bf2e3089d7f741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b957aaf838b0752421349593ee4de95') in 0.032052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Wood_sup.png
+  artifactKey: Guid(4b81d0f002cb8704badeb344e1cbd5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Wood_sup.png using Guid(4b81d0f002cb8704badeb344e1cbd5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04620c73bcc2f890c943d59fc7af9e4d') in 0.027947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Door_nm.png
+  artifactKey: Guid(08d5da72005c6774883f69690742a0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Door_nm.png using Guid(08d5da72005c6774883f69690742a0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471f5a76aa9b6c1b3614e019957ea2a0') in 0.033706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Hard_cement_NORM.png
+  artifactKey: Guid(8b18529cbde55e9419ce78b5e121c360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Hard_cement_NORM.png using Guid(8b18529cbde55e9419ce78b5e121c360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a06178a56a3ce33009d31650e472a2') in 0.034488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.322527 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Materials/Brick_dirt_SPEC.mat
+  artifactKey: Guid(243551d4980a8994e807662ef9ab3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Materials/Brick_dirt_SPEC.mat using Guid(243551d4980a8994e807662ef9ab3191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff943e4647b725ecf288d48f0f82b68a') in 0.016050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Materials/Bricks_wall.mat
+  artifactKey: Guid(9b9092deffbb80043af437d09795b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Materials/Bricks_wall.mat using Guid(9b9092deffbb80043af437d09795b872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765974c8f4e5fb9f6bb5967500ee112f') in 0.037077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Materials/Hard_cement.mat
+  artifactKey: Guid(251cbcdb26449dc449b563c7f5d79b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Materials/Hard_cement.mat using Guid(251cbcdb26449dc449b563c7f5d79b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff60d21b76d26efe8b9c9f0a8f51a066') in 0.036491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.222589 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Bricks.mat
+  artifactKey: Guid(b142eee7dde30784598be455a3dd82f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Bricks.mat using Guid(b142eee7dde30784598be455a3dd82f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b2141a25653c204b80f144e4cf5f9f') in 0.029100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Shack.mat
+  artifactKey: Guid(615e9def52548764a94036af1efb94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Shack.mat using Guid(615e9def52548764a94036af1efb94eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8b7be393b43dfe29fae36055ec4d43') in 0.031766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/wood_Wall_MaskMap.png
+  artifactKey: Guid(8fbe4d5fe778ecc428c630d3524cda0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/wood_Wall_MaskMap.png using Guid(8fbe4d5fe778ecc428c630d3524cda0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9d463a8df35cd40941679bd98e2c66') in 0.025027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/wood_Floor_MaskMap.png
+  artifactKey: Guid(ab38d1a848a82594d944a2beba1661d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/wood_Floor_MaskMap.png using Guid(ab38d1a848a82594d944a2beba1661d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986d938691d39979cb094ce2b9f52968') in 0.031634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Wall 2.mat
+  artifactKey: Guid(45e48d40d7aa6f44aac12c1ed4f23498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Wall 2.mat using Guid(45e48d40d7aa6f44aac12c1ed4f23498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e314f9aabcbcc4261c60b1607330cb') in 0.032658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/wall_inner.mat
+  artifactKey: Guid(459473043c67c1744ab158f2daa91590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/wall_inner.mat using Guid(459473043c67c1744ab158f2daa91590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ceb3a84f856c8bcd7f63c2e3f4d960') in 0.022128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Wall 1.mat
+  artifactKey: Guid(9753e79ad0479224384e31f8ec2614a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Wall 1.mat using Guid(9753e79ad0479224384e31f8ec2614a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea9582baec035964bb2e1ca8de752bd') in 0.036962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Cement_D_W.mat
+  artifactKey: Guid(5ae0c33019f5f4e4f9bc58851a620136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Cement_D_W.mat using Guid(5ae0c33019f5f4e4f9bc58851a620136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb88dac69610516a41e6cff71d020b') in 0.018711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/lamp.mat
+  artifactKey: Guid(e1cb330e6d7d95d439061795491340ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/lamp.mat using Guid(e1cb330e6d7d95d439061795491340ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7903624543f9810053756e8982ad9e1') in 0.030036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Bulb.mat
+  artifactKey: Guid(21ddbdaee2360334e914ab218d134efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Bulb.mat using Guid(21ddbdaee2360334e914ab218d134efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8271d701be0eb92cc851e21a5419a0be') in 0.019301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Ground_tile_MaskMap.png
+  artifactKey: Guid(d99c9cd8705a10f4998f443be820086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Ground_tile_MaskMap.png using Guid(d99c9cd8705a10f4998f443be820086b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402bceb5d48e5825948889a6cef2aeda') in 0.032847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/wood_Wall.mat
+  artifactKey: Guid(f780a655d4eaffe4cbf5e7cbf014fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/wood_Wall.mat using Guid(f780a655d4eaffe4cbf5e7cbf014fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a878f53efbc5d534e4778442b6cc5d7d') in 0.027128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/Wood_sup_MaskMap.png
+  artifactKey: Guid(f743ac03a516f004b8f662d8358b1b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/Wood_sup_MaskMap.png using Guid(f743ac03a516f004b8f662d8358b1b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c4e4de116659e178f02edcc7ecc187') in 0.034416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Mat/wall_inner 1.mat
+  artifactKey: Guid(dcf9a5ab2fa81a34fb0c7632f9c191fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Mat/wall_inner 1.mat using Guid(dcf9a5ab2fa81a34fb0c7632f9c191fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dbb8b3a212f07bcfb24722481243be') in 0.033147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.507268 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Materials/Flooring.mat
+  artifactKey: Guid(2f0d970b2552b1d4d90517bdf570474f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Materials/Flooring.mat using Guid(2f0d970b2552b1d4d90517bdf570474f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddb02e2867754f35dc49f60091b3d39') in 0.026520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BootCamp/Buildings/Tex/Materials/Flooring__cement.mat
+  artifactKey: Guid(c1dbb0e181f37c640be5cd44d38635b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Buildings/Tex/Materials/Flooring__cement.mat using Guid(c1dbb0e181f37c640be5cd44d38635b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7737503b9e30c8c39d879a6ad7e0984') in 0.026218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.391676 seconds.
+  path: Assets/BootCamp/Graphs/Textures/simple_water.mat
+  artifactKey: Guid(eb2e60f5746f84e4fa200b87b69dea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Graphs/Textures/simple_water.mat using Guid(eb2e60f5746f84e4fa200b87b69dea50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53259909854e7573cab6dd9a3c99437d') in 0.025073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.609667 seconds.
+  path: Assets/BootCamp/Layers/2.terrainlayer
+  artifactKey: Guid(44533459006172b45beb8e266ded17d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Layers/2.terrainlayer using Guid(44533459006172b45beb8e266ded17d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e230bbf46e71cbf2437312d4d1b1bd55') in 0.028293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.274238 seconds.
+  path: Assets/BootCamp/Props/Floor_showcase.mat
+  artifactKey: Guid(536dea43d720b2744ae0e1ed5400d259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Floor_showcase.mat using Guid(536dea43d720b2744ae0e1ed5400d259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0cf97e39d420a0cfc86c4daa479682') in 0.013679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.722415 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Barrel.png
+  artifactKey: Guid(00acdf519c9684e4b8ce6ce254a565a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Barrel.png using Guid(00acdf519c9684e4b8ce6ce254a565a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1d5c5028ee826a1f905ae78170b575') in 0.032047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Barrel_spec.png
+  artifactKey: Guid(dd6d88b01ebed044db06d3218f4d8d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Barrel_spec.png using Guid(dd6d88b01ebed044db06d3218f4d8d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66c1604b87e987a430c52385c2bea8e') in 0.034370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Barrel2_norm.png
+  artifactKey: Guid(fa52d4669c522de4b9b1da06e731c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Barrel2_norm.png using Guid(fa52d4669c522de4b9b1da06e731c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaf421363b6da064c21dc0901d7bb17') in 0.035368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Barrel2_spec.png
+  artifactKey: Guid(86bff44eeee94104a965b5331c06e7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Barrel2_spec.png using Guid(86bff44eeee94104a965b5331c06e7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041895f5228847f55b14de5b813ed84b') in 0.028869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Barrel_norm.png
+  artifactKey: Guid(1d86a606c71cb164da0996ab54acf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Barrel_norm.png using Guid(1d86a606c71cb164da0996ab54acf437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca7491227872ed4d470e29844d0542d') in 0.034002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Rod_NORM.png
+  artifactKey: Guid(efe5bc081d5d4d9458ad81dac718f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Rod_NORM.png using Guid(efe5bc081d5d4d9458ad81dac718f05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04616ff1a6c8cb7e763387d15ab9ab59') in 0.046226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/fence_NORM.png
+  artifactKey: Guid(35787befedcae2b4c99698a3e1230705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/fence_NORM.png using Guid(35787befedcae2b4c99698a3e1230705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644a2b0fa394e224c758a6972c2b1127') in 0.036434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Corrugate.png
+  artifactKey: Guid(b5b005f5882e7df4f822fc54d9972122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Corrugate.png using Guid(b5b005f5882e7df4f822fc54d9972122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d6087704b44d19fff181fd9d51247a') in 0.026611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Corrugate_NORM.png
+  artifactKey: Guid(ab621d1b04213a547a2406bbbd3ef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Corrugate_NORM.png using Guid(ab621d1b04213a547a2406bbbd3ef050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55047105082cd3d271d2ffd02d8eab7d') in 0.029274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.794163 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Table/model_Table_Mt_Metallic.png
+  artifactKey: Guid(191ee2a543c7abc4e83d7fb002780b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Table/model_Table_Mt_Metallic.png using Guid(191ee2a543c7abc4e83d7fb002780b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3daf2d517b4b95e64f58cdc825e67e') in 0.020170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Table/model_Table_Mt_Roughness.png
+  artifactKey: Guid(d22ac5b25013a814db70392c0f16bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Table/model_Table_Mt_Roughness.png using Guid(d22ac5b25013a814db70392c0f16bc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0fe76b1dceda58609f37155f0bb121') in 0.031940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Table/Table 2.fbx
+  artifactKey: Guid(8a05f0578b071dd4c856c307475ebc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Table/Table 2.fbx using Guid(8a05f0578b071dd4c856c307475ebc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa8e0eb98dd79c0b293badc8832cf73') in 0.130130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.925434 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Table/Materials/model_Table_Mt_BaseColor_MaskMap.png
+  artifactKey: Guid(52496c19cb2002e44a560db74d0b3ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Table/Materials/model_Table_Mt_BaseColor_MaskMap.png using Guid(52496c19cb2002e44a560db74d0b3ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46ae090f127711e36937ecadc1998bb') in 0.023658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.723401 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Materials/Barrel2_MaskMap.png
+  artifactKey: Guid(9d5f5314a011861429b77a09ff5d4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Materials/Barrel2_MaskMap.png using Guid(9d5f5314a011861429b77a09ff5d4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337bf0c384a9e233935ec6dbb005a365') in 0.024804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Materials/Corrugate.mat
+  artifactKey: Guid(4b713a2418d61f245beb3eefb8c44220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Materials/Corrugate.mat using Guid(4b713a2418d61f245beb3eefb8c44220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9007b63cb056c2bc336c4ec7d824b000') in 0.024805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/BootCamp/Props/Barrel_stuff/Materials/fence.mat
+  artifactKey: Guid(5f979844bd594d246844be2104533d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Barrel_stuff/Materials/fence.mat using Guid(5f979844bd594d246844be2104533d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49b29a3eaf021c187ce9b0810a0ca8f') in 0.025033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.608574 seconds.
+  path: Assets/BootCamp/Props/Box/Tex/Crate_NORM.png
+  artifactKey: Guid(1cf980e5a0e9dd74b9937122320ea4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Props/Box/Tex/Crate_NORM.png using Guid(1cf980e5a0e9dd74b9937122320ea4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d7abb173b9de9a6f6adb6fe6c39493') in 0.027671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.753452 seconds.
+  path: Assets/BootCamp/Shacks/Shack 3.fbx
+  artifactKey: Guid(91ff1c8c9a2d4c64d8089a7ab1a26504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Shack 3.fbx using Guid(91ff1c8c9a2d4c64d8089a7ab1a26504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be219ea3063386bd5c64d7caba991fc3') in 0.151354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.177462 seconds.
+  path: Assets/BootCamp/Shacks/mats/Red_Metal.mat
+  artifactKey: Guid(0179f39d1ee11ec43bcf53d64d9f9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/mats/Red_Metal.mat using Guid(0179f39d1ee11ec43bcf53d64d9f9d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca90e3b93b828517a8c644d907378ff') in 0.021205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/BootCamp/Shacks/mats/Vertical_Wood.mat
+  artifactKey: Guid(2916d81a389910c41ba0d777469a6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/mats/Vertical_Wood.mat using Guid(2916d81a389910c41ba0d777469a6d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6868ca46491155d376e809cd6cbb39') in 0.040455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610115 seconds.
+  path: Assets/BootCamp/Shacks/Prefab/Shack2.prefab
+  artifactKey: Guid(237250cb56df58943a73fb73d7c0b191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Prefab/Shack2.prefab using Guid(237250cb56df58943a73fb73d7c0b191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0d719790dbb2d741a9140c2586ff76') in 0.154874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.931627 seconds.
+  path: Assets/BootCamp/Shacks/Texs/Blue_Metal_DISP.png
+  artifactKey: Guid(91b0108cf3ef6274f8f03ddbf4369118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/Blue_Metal_DISP.png using Guid(91b0108cf3ef6274f8f03ddbf4369118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037fdcc2613ee7d12c5a28bd48dec16e') in 0.023577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/BootCamp/Shacks/Texs/Shelf.png
+  artifactKey: Guid(e7130f7edab90e545a166eac41938cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/Shelf.png using Guid(e7130f7edab90e545a166eac41938cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f045606f24df81d05d7bbc6445cabc') in 0.032197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BootCamp/Shacks/Texs/wood_H_NORM.png
+  artifactKey: Guid(a0fad139853848a4199b4dc0e3742684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/wood_H_NORM.png using Guid(a0fad139853848a4199b4dc0e3742684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbc7dd1e3fcf1d60a30c2791cac52ac') in 0.053690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/BootCamp/Shacks/Texs/Wood_V_DISP.png
+  artifactKey: Guid(3ad9da288cfa64c4cb979133aa7818fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/Wood_V_DISP.png using Guid(3ad9da288cfa64c4cb979133aa7818fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53ff7d4bd9356cc615ebc57fd811403') in 0.039806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/BootCamp/Shacks/Texs/wood_H_DISP.png
+  artifactKey: Guid(42c8cc63fd403ff4d9315b03fa67ad47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/wood_H_DISP.png using Guid(42c8cc63fd403ff4d9315b03fa67ad47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcc752c9acfeb7c55edaf43939e4daf') in 0.045527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/BootCamp/Shacks/Texs/Red_Metal.png
+  artifactKey: Guid(62a1bee468795d94c83b8c4afd7bc5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/Red_Metal.png using Guid(62a1bee468795d94c83b8c4afd7bc5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097fc6cf2aead3f66a2fff9c77d17b8a') in 0.031695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/BootCamp/Shacks/Texs/Roof_Wood.png
+  artifactKey: Guid(fe5eb2012e7baa0469aebb47c68eb59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/Roof_Wood.png using Guid(fe5eb2012e7baa0469aebb47c68eb59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9cf59c67b7b5a3f838870d4b126bba') in 0.032357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/BootCamp/Shacks/Texs/Wood_support.png
+  artifactKey: Guid(790d86b722893d049b96a445824b1e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BootCamp/Shacks/Texs/Wood_support.png using Guid(790d86b722893d049b96a445824b1e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14a5d4ce2245a63bc6120ed2e16db31') in 0.033261 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
